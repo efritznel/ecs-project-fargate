@@ -1,4 +1,4 @@
-Project Highlight: Highly Available ECS Architecture with Terraform & GitHub Actions
+# Project Highlight: Highly Available ECS Architecture with Terraform & GitHub Actions
 
 ![Project Image](https://github.com/efritznel/ecs-project-fargate/blob/main/ecs-project-image.png)
 
@@ -6,7 +6,7 @@ Project Task
 
 I have designed and deployed a secure, scalable, and production-ready containerized web application on AWS. The solution had to follow best practices for networking, isolation, and automation, while supporting continuous deployment and infrastructure consistency.
 
-Pre-requisites
+# Pre-requisites
 
     - Remote backend to store our statefiles should already be created in our AWS account.
     
@@ -14,7 +14,7 @@ Pre-requisites
     
         - Image name: efritznel/ithomelab-webpage:latest
 
-Step 1. Networking
+# Step 1. Networking
     
     - VPC
     
@@ -34,19 +34,19 @@ Step 1. Networking
     
     - Private route table, route to NGW, private subnets association
     
-Step 2. Security Group
+# Step 2. Security Group
 
     - Sg for external alb all traffic on port 80 from internet
 
     - Sg for ECS cluster all traffic on port 80 from alb
 
-Step 3. Load Balancer
+# Step 3. Load Balancer
 
     - Create Loadbalancer, listener and target group in public subnets
     
     - The listener will forward http traffic on port 80 to the Target Group
 
-Step 4. ECS Cluster
+# Step 4. ECS Cluster
 
     - Create ECS cluster in private subnets
     
