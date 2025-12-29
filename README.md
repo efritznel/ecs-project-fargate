@@ -1,3 +1,5 @@
+![Project Image]https://github.com/efritznel/ecs-project-fargate/blob/main/ecs-project-image.png
+
 Project Task
 Plan for today Deploy a web application as a container in an ECS Cluster
 
