@@ -1,3 +1,4 @@
+ECS Project with Fargate
 ![Project Image](https://github.com/efritznel/ecs-project-fargate/blob/main/ecs-project-image.png)
 
 Project Task
